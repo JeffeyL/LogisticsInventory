@@ -1,0 +1,18 @@
+{% extends "layout.html" %} 
+{% block content %} 
+{% for item in items %}
+<article class="media content-section">
+  <div class="media-body">
+    <div class="article-metadata">
+      <p class="close-p">id: {{ item.id }}</p>
+      <p class="close-p">quantity: {{ item.qty }}</p>
+    </div>
+    <h2><a class="article-title" href="#">{{ item.name }}</a></h2>
+    <p>last updated: {{ item.last_update }}</p>
+    <p>delete message: {{ item.msg }}</p>
+    <a class="mr-2" href="{{ url_for('restore_item', id=item._id)}}">Restore</a>
+    <a class="mr-2" href="{{ url_for('perm_delete_item', id=item._id)}}">Permanently Delete</a>
+  </div>
+</article>
+{% endfor %} 
+{% endblock content %}
