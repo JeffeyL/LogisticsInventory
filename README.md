@@ -18,7 +18,7 @@ This project was created for the Shopify intern challenge. It is an inventory ma
 ```sh
    git clone https://github.com/JeffeyL/LogisticsInventory.git
 ```
-2. Navigate to requirements.txt and install the required packages
+2. Navigate to the folder containing requirements.txt and install the required packages
 ```sh
    pip install -r requirements.txt
 ```
