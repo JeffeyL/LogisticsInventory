@@ -1,6 +1,6 @@
 # LogisticsInventory
 ## About the project
-This project was created for the Shopify intern challenge. It is an inventory management web app for a theoretical logistics company. It has basic CRUD functionality, and also allows deletion comments and restoration as per one of the prescribed challenges.
+This project is an inventory management web app for a theoretical logistics company. It has basic CRUD functionality, and also allows deletion comments and restoration as per one of the prescribed challenges.
 
 ## Built with
 - [Flask](https://flask.palletsprojects.com/en/2.0.x/)
